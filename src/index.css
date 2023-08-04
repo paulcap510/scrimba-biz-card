@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  top: 0;
+}
+
+.info-component {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto; 
+  margin: 0; 
+  padding: 20px;
+  position: relative;
+}
+
+
+.info-component .image-container {
+  width: 100%; 
+  max-width: 600px; 
+}
+
+
+.biz-card-name {
+  font-size: 24px;
+  margin: 5px 0; 
+}
+
+.biz-card-title {
+  font-size: 18px; 
+  margin: 5px 0; 
+}
+
+.biz-card-site {
+  font-size: 16px; 
+  margin: 5px 0 10px 0; 
+}
+
+
+
+.biz-card-name {
+  color: #FFFFFF;
+}
+
+.biz-card-title {
+  color: #F3BF99;
+}
+
+.biz-card-site {
+  color: #F5F5F5;
+}
+
+
+.buttons-div {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.my-button {
+  border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+  border: none; 
+  background-color: #f0f0f0; 
+  transition: 0.3s;
+}
+
+.button1, .button3 {
+  background-color: #C4C8CE;
+}
+
+.button1:hover, .button3:hover {
+  background-color: #eea36d;
+  cursor: pointer;
+
+}
+
+.button2 {
+  background-color: #5093E2;
+  color: white;
+}
+
+
+.button2:hover {
+  background-color: #184380;
+  cursor: pointer;
+}
+
+
+.yellow-text {
+  color: #eea36d;
+ 
+}
+
+
+.biz-card-site a, .biz-card-site a:visited {
+  color: #5093E2;
+  text-decoration: none; 
+  transition: 0.3s;
+}
+
+.biz-card-site a:hover {
+  font-weight: bold;
+}
+
+
+.my-button i {
+  margin-right: 8px;
+}
+
+
+.buttons-div a {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+}
+
+.hero-component {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A1B21;
+  color: #DCDCDC;
+
+  justify-content: left;
+  align-items: left;
+  width: 600px;
+  height: auto; 
+  margin: 0 auto; 
+  border-radius: 8px;
+  padding: 30px 20px 20px 20px;
+}
+
+.footer {
+  background-color: #333;
+  width: 600px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 40px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #5093E2;
+}
