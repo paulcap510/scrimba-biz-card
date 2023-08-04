@@ -1,3 +1,7 @@
+# React Personal Business Card
+
+This project was completed as a solo project for Scrimba's Frontend Developer Career Path Curriculum. The project uses React to generate a personal business card with links to social media websites and email. I used Vite to create it locally rather than creating it on Scrimba. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
